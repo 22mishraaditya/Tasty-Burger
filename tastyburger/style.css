@@ -1,0 +1,841 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Remove default spacing */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+    background: transparent;
+    position: absolute;
+    width: 90%;
+    top: 0;
+    left: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+
+/* Logo Section */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    /* adjust size */
+    height: auto;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+}
+
+.logo span {
+    color: yellow;
+}
+
+/* Menu */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul li:hover {
+    color: rgb(243, 243, 9);
+}
+
+/* Cart */
+.cart {
+    position: relative;
+}
+
+.count {
+    position: absolute;
+    top: -8px;
+    right: -12px;
+    background: rgb(223, 81, 81);
+    color: white;
+    font-size: 10px;
+    padding: 2px 6px;
+    border-radius: 50%;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px;
+    background: url("hero-1.jpg") no-repeat center center/cover;
+    min-height: 90vh;
+}
+
+.hero-left {
+    position: relative;
+    width: 60%;
+}
+
+.hero-right {
+    width: 50%;
+    color: white;
+    text-align: left;
+}
+
+.burger-img {
+    width: 550px;
+    position: relative;
+    top: 30px;
+}
+
+.hero-right h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 80px;
+    letter-spacing: 2px;
+    line-height: 0.9;
+    margin: 0;
+}
+
+.hero-right h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 80px;
+    letter-spacing: 2px;
+    line-height: 0.9;
+    margin: 0;
+
+}
+
+.hero-right h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    letter-spacing: 4px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.hero-right p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+    max-width: 380px;
+    line-height: 1.6;
+}
+
+.hero-right button {
+    margin-top: 25px;
+    padding: 14px 30px;
+    background: #ffc400;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.hero-right button:hover {
+    background: #dd3a1e;
+}
+
+.price-tag {
+    position: absolute;
+    top: 20px;
+    left: 400px;
+    /* adjust */
+}
+
+.price-tag img {
+    width: 180px;
+}
+
+.price-tag span {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(43, 8, 8);
+}
+
+/* ABOUT SECTION */
+.about {
+    background: #f8f8f8;
+    text-align: center;
+    padding: 100px 20px 0 10px;
+}
+
+.about-content h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 55px;
+    color: #333;
+    letter-spacing: 1px;
+    margin: 0;
+    line-height: 1.2;
+
+}
+
+.about-content h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 55px;
+    color: #333;
+    letter-spacing: 1px;
+
+}
+
+.about-content p {
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+    font-size: 20px;
+    color: #777;
+    line-height: 1.6;
+}
+
+.menu-btn {
+    display: inline-block;
+    background: #d60000;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.menu-btn:hover {
+    background: #b00000;
+}
+
+.about-content button:hover {
+    background: #b00000;
+}
+
+/* Bottom Burger Image */
+
+.about {
+    background: #f8f8f8 url("about-1.jpg") no-repeat bottom center;
+    background-size: contain;
+    text-align: center;
+    padding: 100px 20px 250px 20px;
+    /* extra bottom space for burgers */
+}
+
+/* FEATURES SECTION */
+.features {
+    background: #ffc400;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 80px 100px;
+}
+
+.feature-box {
+    width: 30%;
+    text-align: center;
+
+}
+
+.feature-box p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.feature-box h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+.icon img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* ================= MENU SECTION ================= */
+
+.menu {
+    background: #f8f8f8;
+    padding: 100px 0;
+}
+
+.menu-container {
+    width: 1200px;
+    /* fixed clean width */
+    margin: 0 auto;
+    /* center horizontally */
+}
+
+/* Header */
+.menu-header h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 70px;
+    color: #d60000;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.menu-header p {
+    color: #777;
+    max-width: 600px;
+    margin: 0 auto 50px auto;
+    font-size: 25px;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+
+/* Grid Layout */
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.menu-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+
+/* Image Wrapper */
+.card-image {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Image */
+.card-image img {
+    width: 100%;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+/* Zoom effect on hover */
+.menu-card:hover img {
+    transform: scale(1.1);
+}
+
+/* Dark Overlay */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+/* Show overlay on hover */
+.menu-card:hover .overlay {
+    opacity: 1;
+}
+
+/* Add to Cart Button */
+.overlay button {
+    padding: 12px 25px;
+    background: #ffc400;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.overlay button:hover {
+    background: #ffb300;
+}
+
+/* Card hover shadow */
+.menu-card:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Card Content */
+.card-content {
+    padding: 20px;
+    text-align: left;
+}
+
+/* Burger Name */
+.card-content h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+/* Price */
+.price {
+    display: inline-block;
+    background: #5e2213;
+    color: white;
+    padding: 6px 16px;
+    font-weight: bold;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+/* Description */
+.desc {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #777;
+    line-height: 1.6;
+}
+
+.menu-card:hover .card-content h3 {
+    color: #d60000;
+}
+
+/* ================= ADS SECTION ================= */
+
+.ads-section {
+    display: flex;
+    gap: 15px;
+    padding: 30px;
+    background: #f5f5f5;
+}
+
+/* Common Card Style */
+.ad-card {
+    flex: 1;
+    height: 250px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+    color: #333;
+}
+
+/* Background Images */
+.ad1 {
+    background: url("ads-1.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.ad2 {
+    background: url("ads-2.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+
+
+.ad-content {
+    position: relative;
+    z-index: 2;
+}
+
+/* Text Styling */
+
+.ad-content1 h3 {
+    font-size: 20px;
+    margin-left: 300px;
+    margin-bottom: 1px;
+}
+
+.ad-content1 h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    margin-left: 300px;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.ad-content2 h3 {
+    font-size: 20px;
+    margin-left: 300px;
+    margin-bottom: 1px;
+}
+
+.ad-content2 h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    margin-left: 300px;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Button */
+.ad-btn {
+    background: #d60000;
+    color: white;
+    margin-left: 300px;
+    padding: 8px 18px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: 0.3s ease;
+}
+
+.ad-btn:hover {
+    background: #b00000;
+}
+
+.discount-badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+    background: #d60000;
+    color: white;
+
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: bold;
+
+    border-radius: 50px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+
+    z-index: 3;
+}
+
+/* ================= STORY SECTION ================= */
+
+.story-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 80px;
+    background: #eef2f3;
+    gap: 40px;
+}
+
+/* LEFT IMAGE */
+.story-left {
+    width: 40%;
+}
+
+.story-left img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0);
+}
+
+/* RIGHT CONTENT */
+.story-right {
+    width: 50%;
+}
+
+.story-right h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.story-right p {
+    font-family: 'poppins', sans-serif;
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.7;
+}
+
+.story-right ul {
+    padding-left: 20px;
+    color: #555;
+}
+
+.story-right li {
+    margin-bottom: 10px;
+}
+
+.footer {
+    display: flex;
+}
+
+.parallax {
+    height: 100vh;
+    background: url('bg.jpg') center/cover no-repeat;
+    background-attachment: fixed;
+    /* PARALLAX EFFECT */
+    position: relative;
+}
+
+/* dark overlay for readability */
+.overlay {
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    text-align: center;
+}
+
+.overlay h1 {
+    font-size: 50px;
+}
+
+.overlay button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: rgb(224, 162, 46);
+    border: none;
+    cursor: pointer;
+}
+
+
+.content {
+    background: white;
+    padding: 80px;
+    text-align: center;
+}
+
+.promo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f4b400;
+    padding: 60px 80px;
+    flex-wrap: wrap;
+}
+
+.promo-text {
+    max-width: 50%;
+}
+
+.promo-text h4 {
+
+    font-family: 'Poppins', sans-serif;
+
+    font-size: 30px;
+    font-weight: 500;
+    color: #5a3e1b;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.promo-text h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #4a2c0f;
+    margin-bottom: 15px;
+}
+
+
+.promo-text p {
+    font-size: 25px;
+    color: #6b4f2a;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.store-buttons img {
+    width: 160px;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.store-buttons img:hover {
+    transform: scale(1.05);
+}
+
+.promo-image img {
+    width: 450px;
+    max-width: 100%;
+}
+
+.brand-slider {
+    background: #eee;
+    padding: 40px 0;
+}
+
+.slider-container {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slider img {
+    width: 20%;
+    /* 5 items visible */
+    padding: 10px;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.slider img:hover {
+    opacity: 0.5;
+}
+
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+.delivery {
+    height: 400px;
+    background: url('banner-1.jpg') center/cover no-repeat;
+    position: relative;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.4);
+    /* dark transparent layer */
+    color: white;
+    text-align: center;
+    padding: 50px;
+    width: 100%;
+}
+
+.delivery-overlay {
+    height: 100%;
+    background: rgba(184, 173, 173, 0.7);
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.delivery-overlay h4 {
+    font-family: 'Poppins', sans-serif;
+
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #111010;
+    margin-bottom: 5px;
+}
+
+.delivery-overlay h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+    font-size: 42px;
+    font-weight: 800;
+    color: #2e2929;
+    margin-bottom: 15px;
+}
+
+.delivery-overlay p {
+    font-size: 16px;
+    color: #222121;
+    margin-bottom: 20px;
+}
+
+.delivery-overlay button {
+    padding: 10px 25px;
+    border: 2px solid rgba(185, 19, 19, 0.582);
+    background: transparent;
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.delivery-overlay button:hover {
+    background: red;
+    color: white;
+}
+
+.footer {
+    background: #f5f5f5;
+    padding: 40px 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.footer-box {
+    width: 23%;
+    min-width: 200px;
+}
+
+.footer-box h4 {
+
+    font-family: 'Poppins', sans-serif;
+
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.footer-box p {
+    font-size: 15px;
+    color: #222121;
+    margin: 10px 0;
+}
+
+.phone {
+    color: #f4b400;
+    
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.social-icons i {
+    margin-right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.social-icons i:hover {
+    color: red;
+}
