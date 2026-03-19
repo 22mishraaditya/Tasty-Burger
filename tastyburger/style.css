@@ -8,14 +8,14 @@ html {
 }
 
 
-/* Remove default spacing */
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
 
 
-/* Navbar */
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -37,7 +37,7 @@ nav ul li a:hover {
     color: yellow;
 }
 
-/* Logo Section */
+
 .logo {
     display: flex;
     align-items: center;
@@ -45,7 +45,7 @@ nav ul li a:hover {
 
 .logo img {
     width: 100px;
-    /* adjust size */
+   
     height: auto;
     margin-right: 10px;
 }
@@ -59,7 +59,7 @@ nav ul li a:hover {
     color: yellow;
 }
 
-/* Menu */
+
 nav ul {
     list-style: none;
     display: flex;
@@ -76,7 +76,7 @@ nav ul li:hover {
     color: rgb(243, 243, 9);
 }
 
-/* Cart */
+
 .cart {
     position: relative;
 }
@@ -168,7 +168,7 @@ nav ul li:hover {
     position: absolute;
     top: 20px;
     left: 400px;
-    /* adjust */
+    
 }
 
 .price-tag img {
@@ -186,7 +186,7 @@ nav ul li:hover {
     color: rgb(43, 8, 8);
 }
 
-/* ABOUT SECTION */
+
 .about {
     background: #f8f8f8;
     text-align: center;
@@ -237,17 +237,16 @@ nav ul li:hover {
     background: #b00000;
 }
 
-/* Bottom Burger Image */
+
 
 .about {
     background: #f8f8f8 url("about-1.jpg") no-repeat bottom center;
     background-size: contain;
     text-align: center;
     padding: 100px 20px 250px 20px;
-    /* extra bottom space for burgers */
 }
 
-/* FEATURES SECTION */
+
 .features {
     background: #ffc400;
     display: flex;
@@ -280,7 +279,7 @@ nav ul li:hover {
     margin-bottom: 10px;
 }
 
-/* ================= MENU SECTION ================= */
+
 
 .menu {
     background: #f8f8f8;
@@ -289,12 +288,12 @@ nav ul li:hover {
 
 .menu-container {
     width: 1200px;
-    /* fixed clean width */
+    
     margin: 0 auto;
-    /* center horizontally */
+    
 }
 
-/* Header */
+
 .menu-header h2 {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 70px;
@@ -314,7 +313,7 @@ nav ul li:hover {
 }
 
 
-/* Grid Layout */
+
 .menu-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -328,25 +327,25 @@ nav ul li:hover {
     transition: 0.3s ease;
 }
 
-/* Image Wrapper */
+
 .card-image {
     position: relative;
     overflow: hidden;
 }
 
-/* Image */
+
 .card-image img {
     width: 100%;
     display: block;
     transition: transform 0.4s ease;
 }
 
-/* Zoom effect on hover */
+
 .menu-card:hover img {
     transform: scale(1.1);
 }
 
-/* Dark Overlay */
+
 .overlay {
     position: absolute;
     top: 0;
@@ -361,12 +360,12 @@ nav ul li:hover {
     transition: opacity 0.4s ease;
 }
 
-/* Show overlay on hover */
+
 .menu-card:hover .overlay {
     opacity: 1;
 }
 
-/* Add to Cart Button */
+
 .overlay button {
     padding: 12px 25px;
     background: #ffc400;
@@ -381,25 +380,24 @@ nav ul li:hover {
     background: #ffb300;
 }
 
-/* Card hover shadow */
+
 .menu-card:hover {
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
-/* Card Content */
 .card-content {
     padding: 20px;
     text-align: left;
 }
 
-/* Burger Name */
+
 .card-content h3 {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 22px;
     margin-bottom: 8px;
 }
 
-/* Price */
+
 .price {
     display: inline-block;
     background: #5e2213;
@@ -410,7 +408,7 @@ nav ul li:hover {
     font-size: 14px;
 }
 
-/* Description */
+
 .desc {
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
@@ -422,7 +420,7 @@ nav ul li:hover {
     color: #d60000;
 }
 
-/* ================= ADS SECTION ================= */
+
 
 .ads-section {
     display: flex;
@@ -431,7 +429,7 @@ nav ul li:hover {
     background: #f5f5f5;
 }
 
-/* Common Card Style */
+
 .ad-card {
     flex: 1;
     height: 250px;
@@ -444,7 +442,7 @@ nav ul li:hover {
     color: #333;
 }
 
-/* Background Images */
+
 .ad1 {
     background: url("ads-1.jpg") no-repeat center center;
     background-size: cover;
@@ -462,7 +460,7 @@ nav ul li:hover {
     z-index: 2;
 }
 
-/* Text Styling */
+
 
 .ad-content1 h3 {
     font-size: 20px;
@@ -490,7 +488,7 @@ nav ul li:hover {
     margin-bottom: 20px;
 }
 
-/* Button */
+
 .ad-btn {
     background: #d60000;
     color: white;
@@ -523,7 +521,7 @@ nav ul li:hover {
     z-index: 3;
 }
 
-/* ================= STORY SECTION ================= */
+
 
 .story-section {
     display: flex;
@@ -534,7 +532,7 @@ nav ul li:hover {
     gap: 40px;
 }
 
-/* LEFT IMAGE */
+
 .story-left {
     width: 40%;
 }
@@ -545,7 +543,7 @@ nav ul li:hover {
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0);
 }
 
-/* RIGHT CONTENT */
+
 .story-right {
     width: 50%;
 }
@@ -580,11 +578,11 @@ nav ul li:hover {
     height: 100vh;
     background: url('bg.jpg') center/cover no-repeat;
     background-attachment: fixed;
-    /* PARALLAX EFFECT */
+   
     position: relative;
 }
 
-/* dark overlay for readability */
+
 .overlay {
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
@@ -691,7 +689,7 @@ nav ul li:hover {
 
 .slider img {
     width: 20%;
-    /* 5 items visible */
+  
     padding: 10px;
     opacity: 0.7;
     transition: 0.3s;
@@ -730,7 +728,7 @@ nav ul li:hover {
 
 .overlay {
     background: rgba(0, 0, 0, 0.4);
-    /* dark transparent layer */
+    
     color: white;
     text-align: center;
     padding: 50px;
